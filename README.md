@@ -19,3 +19,27 @@
 ![perf output](https://github.com/Arunprasath2003/Tracking-memory-and-CPU-usage/assets/98107416/fdc1c0fc-f156-4eca-a162-2c1a1376cad2)
 
 <br>
+
+**Run Debugger in local machine and track execution in virtual machine**
+<br>
+**On Virtual Machine**
+<br>
+1.Install GDB server
+
+2.Start GDB server on the target machine 
+
+<br>
+
+![gdb vm](https://github.com/Arunprasath2003/Tracking-memory-and-CPU-usage/assets/98107416/621df12d-c7e4-457c-93da-7af0c3a5e3d5)
+
+
+<br>
+
+**On host machine**
+
+<br>
+1.Run GDB on host machine
+
+2.Connect to the GDB server on the VM
+
+3.Set breakpoints, debug and monitor in virtual machine
